@@ -73,19 +73,23 @@ body {
   background-position: -70% center;
 }
 
-.superhero div {
+#app {
+}
+
+.homeContent {
   width: 800px;
   flex-direction: column;
   color: white;
+  transition: width 2s;
 }
 
-.superhero div h1 {
+.homeContent h1 {
   font-size: 10em;
   text-align: left;
   font-family: "Merriweather", serif;
 }
 
-.superhero div h4 {
+.homeContent h4 {
   font-size: 2em;
   text-align: right;
   font-weight: normal;
