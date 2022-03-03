@@ -1,3 +1,6 @@
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap");
+
 /* basic reset for site styling */
 * {
   margin: 0;
@@ -14,8 +17,18 @@ body {
   --darkTheme: #202124; /* the dark theme color for the site */
 }
 
+/* class for making a flexbox */
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 /* MAYBE FIDGET WITH THIS GRADIENT LATER */
 .superhero {
+  align-items: center;
+  justify-content: right;
+
   height: 100%;
   background-image: linear-gradient(
       to right,
@@ -32,4 +45,22 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: -70% center;
+}
+
+.superhero div {
+  width: 800px;
+  flex-direction: column;
+  color: white;
+}
+
+.superhero div h1 {
+  font-size: 10em;
+  text-align: left;
+  font-family: "Merriweather", serif;
+}
+
+.superhero div h4 {
+  font-size: 2em;
+  text-align: right;
+  font-weight: normal;
 }
