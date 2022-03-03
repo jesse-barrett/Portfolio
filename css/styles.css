@@ -1,0 +1,35 @@
+/* basic reset for site styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+/* variables */
+:root {
+  --darkTheme: #202124; /* the dark theme color for the site */
+}
+
+/* MAYBE FIDGET WITH THIS GRADIENT LATER */
+.superhero {
+  height: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(32, 33, 36, 0.9),
+      var(--darkTheme),
+      var(--darkTheme),
+      var(--darkTheme),
+      var(--darkTheme),
+      var(--darkTheme)
+    ),
+    url("../img/headshot.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: -70% center;
+}
