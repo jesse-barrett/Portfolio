@@ -48,6 +48,7 @@ body {
 
 .navigation ul .active {
   border-bottom: 2px solid white;
+  transition: border-bottom 0.2s;
 }
 
 /* MAYBE FIDGET WITH THIS GRADIENT LATER */
