@@ -149,7 +149,7 @@ body {
 }
 
 .myworkContent h4:last-of-type {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .myworkContent .projects {
@@ -164,7 +164,7 @@ body {
   height: 175px;
   border-radius: 25px;
   margin-right: 50px;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   background-color: white;
   background-position: center;
   background-size: cover;
@@ -217,4 +217,9 @@ body {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+/* contact page styles */
+.contactContent {
+  padding-top: 15px;
 }
