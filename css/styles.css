@@ -79,7 +79,7 @@ body {
   width: 850px;
   right: 0;
   padding: 75px;
-  min-height: 100%;
+  height: 100%;
 }
 
 /* home page styles */
@@ -138,4 +138,49 @@ body {
 
 /* mywork page styles */
 .myworkContent {
+  padding-top: 15px;
+}
+
+.myworkContent h4 {
+  font-size: 2em;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.myworkContent h4:last-of-type {
+  margin-bottom: 15px;
+}
+
+.myworkContent .projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.myworkContent .projects .card {
+  position: relative;
+  width: 250px;
+  height: 175px;
+  border-radius: 25px;
+  margin-right: 50px;
+  margin-bottom: 75px;
+  background-color: white;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(37, 46, 47, 0),
+      rgb(14, 20, 27)
+    ),
+    url("../img/headshot.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 10px 3px rgba(14, 20, 27, 0.3);
+}
+
+.myworkContent .projects .card h4 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
